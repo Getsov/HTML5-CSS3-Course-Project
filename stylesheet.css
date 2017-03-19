@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+* {
+    margin : 0;
+    padding : 0;
+}
+ul {
+    margin-bottom : 80px;
+}
+ul > li {
+    display : inline-block;
+    padding : 25px;
+    margin-top : 20px;
+}
+li > a {
+    text-decoration : none;
+    font-size : 20px;
+    color : rgb(255, 160, 0);
+    padding : 15px 20px;
+    border : 5px solid white;
+    border-radius: 15px;
+    text-align : center;
+    margin-top : 10px;
+}
+li > a:hover {
+    cursor : pointer;
+    background : #1f2340;
+    border-color : #1f2340;
+    color : white;
+    font-size : 22px;
+}
+body {
+    font-family : "Lato", sans-serif;
+    color : #ffffff;
+}
+.container {
+    padding : 0 10px;
+    background-image : url("images/softuni-wallpaper-6-1920x1080.jpg");
+    background-repeat : no-repeat;
+    background-position : center center;
+    height : 100%;
+    text-align : center;
+}
+h1 {
+    letter-spacing : 8px;
+    text-transform : uppercase;
+    max-width : 100%;
+    color : rgb(255, 160, 0);
+    margin-bottom : 50px;
+    width : 100%;
+}
+header > h2 {
+    font-size : 40px;
+    letter-spacing : 4px;
+    color : rgb(255, 160, 0);
+    margin-bottom : 80px;
+}
+.grande-team {
+    overflow : auto;
+}
+.grande-team > img {
+    margin : 0 auto;
+    border-radius: 15px;
+}
+.grande-team > p {
+    font-size : 22px;
+}
+p {
+    font-size : 27px;
+    font-weight : bold;
+    margin : 20px;
+    color : rgb(255, 160, 0);
+}
+article {
+    display : inline;
+}
+.btn {
+    color : rgb(255, 160, 0);
+    background : none;
+    border : 5px solid #ffffff;
+    padding : 15px 45px;
+    font-size : 16px;
+    margin-bottom : 30px;
+    border-radius: 15px;
+}
+.btn:hover {
+    background : #1f2340;
+    border-color : #1f2340;
+    cursor : pointer;
+    color : white;
+    font-size : 20px;
+}
+.btn:focus {
+    outline: 0;
+}
+main {
+    margin : 50px auto;
+    max-width : 1060px;
+    padding : 0 10px;
+}
+article > h2 {
+    color : rgb(255, 160, 0);
+    margin : 10px;
+    text-transform : uppercase;
+}
+main p {
+    font-size : 16px;
+    color : #333333;
+    margin-bottom : 5px;
+    letter-spacing : 0;
+    width : 100%;
+}
+main > img {
+    float : left;
+    width : 180px;
+    height : 100px;
+    margin : 10px 50px 13px 9px;
+}
+footer {
+    background-color : #000000;
+}
+footer p {
+    color : rgb(255, 160, 0);
+    font-size : 14px;
+    height : 80px;
+    line-height : 80px;
+    margin : 0;
+    text-align : center;
+}
